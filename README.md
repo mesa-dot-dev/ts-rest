@@ -1,19 +1,19 @@
-# @mesadev/sdk
+# @mesadev/rest
 
-TypeScript SDK for the [Mesa](https://mesa.dev) API.
+TypeScript REST SDK for the [Mesa](https://mesa.dev) API.
 
 Generated from the OpenAPI specification using [@hey-api/openapi-ts](https://heyapi.dev).
 
 ## Installation
 
 ```bash
-npm install @mesadev/sdk
+npm install @mesadev/rest
 ```
 
 ## Usage
 
 ```typescript
-import { createClient } from "@mesadev/sdk";
+import { createClient } from "@mesadev/rest";
 
 const client = createClient({
   baseUrl: "https://depot.mesa.dev/api/v1",

@@ -1,12 +1,12 @@
 {
-  "name": "@mesadev/sdk",
+  "name": "@mesadev/rest",
   "version": "0.3.3",
-  "description": "TypeScript SDK for the Mesa API",
+  "description": "TypeScript REST SDK for the Mesa API",
   "author": "Mesa",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mesa-dot-dev/sdk-typescript"
+    "url": "https://github.com/mesa-dot-dev/ts-rest"
   },
   "publishConfig": {
     "access": "public"
