@@ -29,7 +29,6 @@
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "lint": "biome check src package.json README.md",
-    "test": "bun test",
     "sync": "../../../../bazel.sh run --config=local '--@com_google_protobuf//bazel/toolchains:allow_nonstandard_protoc' //packages/sdk/rest/ts:update_typescript_rest",
     "prepublishOnly": "bun run build"
   },
