@@ -1,6 +1,6 @@
 {
   "name": "@mesadev/rest",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "TypeScript REST SDK for the Mesa API",
   "author": "Mesa",
   "license": "Apache-2.0",
